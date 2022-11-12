@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link crossorigin="anonymous" rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CKadwa%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAutour+One%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSansita+Swashed%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRacing+Sans+One%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CGabriela%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSignika%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.0.1" media="all">
+
+
+    <style>
+        :root {
+            --bg-hero: #0f0e0c;
+            --bg-body: #181510;
+            --bg-boxed: #221d15;
+            --text-primary: #bc8716;
+            --text-primary-2: #c99e35;
+            --text-primary-3: #edd372;
+            --text-base: #ebebeb;
+            --text-light: #fff;
+        }
+        /* css reset */
+        html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+        article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+        *,::before,::after{box-sizing:border-box}
+        body {
+            font-family: "Signika",Sans-serif;
+            background: var(--bg-hero);
+            color: var(--text-base);
+            line-height:1;
+            background: url(img/BG.jpg) center fixed no-repeat;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        p {
+            line-height: 2rem;
+            margin-bottom: 10px;
+        }
+        h1, h2, h3, h4 {
+            font-family: inherit;
+            color: var(--text-primary-2);
+            margin-bottom: 1rem;
+            padding-top: 1rem;
+            line-height: 1.2;
+        }
+        .mb-5 {
+            margin-bottom: 5rem;
+        }
+        .container {
+            position: relative;
+            z-index: 99;
+            width: 100%;
+            max-width: 650px;
+            margin: auto;
+            padding: 0 1.25rem;
+        }
+        .logo {
+            width: 200px;
+            margin: 0 auto;
+        }
+        .banner {
+            border: 1rem solid #1e1a13;
+            background: linear-gradient(to bottom, var(--bg-boxed), var(--bg-body));
+            padding: 2px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .button-grup {
+            display: flex;
+            margin: 2rem auto;
+            padding: 0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .btn {
+            display: block;
+            background: linear-gradient(to top, var(--text-primary), var(--text-primary-3));
+            color: var(--bg-hero);
+            text-align: center;
+            padding: 1rem;
+            width: 100%;
+        }
+        .btn.darkgold {
+            background: linear-gradient(to bottom, var(--bg-boxed), var(--bg-body));
+            color: #ebebeb;
+        }
+        .kata {
+            font-size: 22px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mb-5">
+        <div class="logo"><img src="img/logo.png" alt="JagoHOKI SLOT"></div>
+
+        <div class="banner">
+            <img src="img/banner.jpg" alt="Banner JagoHOKI">
+        </div>
+
+        <div class="button-grup container">
+            <a class="btn" href="#menuLink">Daftar</a>
+            <a class="btn darkgold" href="#menuLink" style="background: linear-gradient(to bottom, var(--bg-boxed), var(--bg-body));color: #ebebeb;">Masuk</a>
+        </div>
+
+        <div class="kata mb-5">
+            <h1>KAMU DAFTAR DAPAT KEREDIT 500K</h1>
+            <p>~di jamin bet pertama dapat scatter</p>
+            <p>🔥Daftar Dengan Akun GRP Winrate 98%🔥</p>
+            <p>🔥Gratis Undian Rodahoki 888k🔥</p>
+        </div>
+
+
+    </div>
+</body>
+</html>
